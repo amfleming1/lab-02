@@ -11,6 +11,7 @@ let answerFive = prompt("Do I like sports?")
 
 if(answerOne === 'n' || answerOne ==='no' ){
     console.log("You are correct!");
+    alert("You are correct!");
 } else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!");
@@ -18,6 +19,7 @@ if(answerOne === 'n' || answerOne ==='no' ){
 
 if(answerTwo === 'n' || answerTwo === 'no' ){
     console.log("You are correct!");
+    alert("You are correct!")
 }else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!")
@@ -25,19 +27,22 @@ if(answerTwo === 'n' || answerTwo === 'no' ){
 
 if(answerThree === 'y' || answerThree ==='yes' ){
     console.log("You are correct!");
+    alert("You are correct!")
 } else {
-    // if 'y' then you are incorrect
+    // if 'n' then you are incorrect
     console.log("You are incorrect!");
 } 
 if(answerFour === 'y' || answerFour ==='yes' ){
     console.log("You are correct!");
+    alert("You are correct!")
 } else {
-    // if 'y' then you are incorrect
+    // if 'n' then you are incorrect
     console.log("You are incorrect!");
 } 
 if(answerFive === 'y' || answerFive==='yes' ){
     console.log("You are correct!");
+    alert("You are correct!")
 } else {
-    // if 'y' then you are incorrect
+    // if 'n' then you are incorrect
     console.log("You are incorrect!");
 } 
