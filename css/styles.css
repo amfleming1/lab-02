@@ -1,0 +1,17 @@
+header {
+    text-align: justify;
+    font-size: x-large; 
+    font-style: bold, italics;
+}
+body {
+    background-image: linear-gradient(to right,lightgreen, rgb(245, 206, 212)); 
+    color:black;
+}
+main {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    border-style: groove;
+    padding: 25px;
+    text-align: justify;
+    background-color: gray;
+}
