@@ -8,9 +8,11 @@ let answerTwo = prompt("Do I like cats?")
 let answerThree = prompt("Do I have children?")
 let answerFour = prompt("Do I like the color black?")
 let answerFive = prompt("Do I like sports?")
+let userScore = 0
 
 if(answerOne === 'n' || answerOne ==='no' ){
     console.log("You are correct!");
+    userScore += 1
 } else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!");
@@ -18,6 +20,7 @@ if(answerOne === 'n' || answerOne ==='no' ){
 
 if(answerTwo === 'n' || answerTwo === 'no' ){
     console.log("You are correct!");
+    userScore += 1
 }else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!")
@@ -25,19 +28,23 @@ if(answerTwo === 'n' || answerTwo === 'no' ){
 
 if(answerThree === 'y' || answerThree ==='yes' ){
     console.log("You are correct!");
+    userScore += 1
 } else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!");
 } 
 if(answerFour === 'y' || answerFour ==='yes' ){
     console.log("You are correct!");
+    userScore +=1
 } else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!");
 } 
 if(answerFive === 'y' || answerFive==='yes' ){
     console.log("You are correct!");
+    userScore +=1
 } else {
     // if 'y' then you are incorrect
     console.log("You are incorrect!");
 } 
+alert('Gameover') 
